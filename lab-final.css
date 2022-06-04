@@ -1,11 +1,97 @@
-body {
-    background-color: white;
+* {
+    font-family: Lato, sans-serif;
 }
 
-h1 {
-    color: blue;
+.container__main {
+    padding: 0rem 12rem;
 }
 
-p {
-    color: green;
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.main__header {
+    margin-bottom: 200px;
+}
+
+.main__sidebar {
+    padding-left: 2em;
+}
+
+.container__main__secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__main__body {
+    flex-grow: 1;
+}
+
+.container__main__body__s2 {
+    margin-top: 55px;
+}
+
+.main__subheader {
+    margin-top: 3.5rem;
+}
+
+.container__contact__main {
+    padding: 0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.container__contact__main input {
+    padding: 5px;
+    border-radius: 5px;
+    outline-color: #808080;
+}
+
+.contact_email {
+    padding-top: 5px;
+}
+
+.contact_message {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit_btn {
+    padding-top: 5px;
+    display: inline-block;
+}
+
+table {
+    min-width: 100%;
+}
+
+table td {
+    border-top: 1px solid #808080;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: left;
+}
+
+table {
+    border: none;
+}
+
+span {
+    color: cornflowerblue;
+}
+
+.colored_text {
+    color: cornflowerblue;
+}
+
+.sidebar__img__container img {
+    object-fit: cover;
 }
